@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.formContainer {
+  padding: 3em;
+  background-color: #ffffff;
+}
+
+.inputField {
+  background-color: #edebeb;
+  border: none;
+  border-radius: 5px;
+  height: 2em;
+  width: 20em;
+  margin-bottom: 1em;
+  -webkit-transition: width 0.1s;
+  -webkit-transition-timing-function: linear;
+  transition: width 0.1s;
+  transition-timing-function: linear;
+}
+
+/* .inputField:focus {
+  background-color: #edebeb;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  /* height: 4em;
+  width: 40em; */
+
+.addButton {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(104, 210, 228);
+  font-weight: 600;
+  margin-left: 1em;
+  padding: 0.7em;
+  width: 10em;
+}
+
+.taskItem {
+  list-style: none;
+}
+
+.taskItemContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  width: 400px;
+}
+
+.delete {
+  border: none;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 2em;
+}
+
+.delete:hover {
+  background-color: #4eb6d3;
+}
+
+.taskListContainer {
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .taskListContainer {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+  }
+}

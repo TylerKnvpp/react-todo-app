@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "details": "Complete Mod 4",
+      "category": "academic",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "details": "Gain 10 lbs of muscle",
+      "category": "health",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "details": "master react",
+      "category": "career",
+      "completed": false
+    }
+  ]
+}
